@@ -1,0 +1,4 @@
+<option value="">---------</option>
+{% for directorate in directorates %}
+<option value="{{ directorate.pk }}">{{ directorate.title }}</option>
+{% endfor %}
